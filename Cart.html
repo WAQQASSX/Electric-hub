@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cart</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header id="Cheader">
+    <a href="Home.html"><img id="CLogo" src="image/logo.png" alt=""></a>
+  </header>
+  <section id="Csec1">
+   <a href="Home.html"> <img id="Carrow" src="image/arrow.png" alt=""></a>
+   <a href="Home.html"><label id="Ctext">Continue shopping</label></a>
+   <a href="Account.html"><img id="Cimg" src="image/cart (1).png" alt=""> 
+   <h4 id="CartUserN">Username</h4></a>
+  </section>
+  <section id="Csec2">
+    <table id="Ctable">
+      <tr>
+        <th id="ProductCo">Product</th>
+        <th id="PriceCo">Price</th>
+        <th id="QuantityCo">Quantity</th>
+      </tr>
+      <tr>
+        <td class="Tdata1">
+          <img id="CartProductPIC" src="image/laptop2.png" alt="">
+          <p id="CartProductName">APPLE MacBook Air</p>
+        </td>
+        <td class="Tdata2"><h4 id="CartProductPrice" class="price">BHD 314.900</h4></td>
+        <td class="Tdata2"><input type="number" name="input" min="1"  class="TInput"></td>
+      </tr>
+    </table> 
+  </section>
+  <section id="Csec3">
+    <div id="PromoCode">
+      <h3>
+       Promo Code
+      </h3>
+       <input id="inputPromo" placeholder="Discount Code" type="text">
+       <input id="applyPromo" type="submit" value="Submit">
+      
+    </div>
+    <div id="PaySection">
+      <table id="Ctable2">
+        <tr>
+          <th>
+            <h4> Added Tax (VAT)</h4>
+          </th>
+          <td>
+            <p>
+              10%
+            </p>
+          </td>
+        </tr>
+        <tr>
+          <th>
+            <h4>Total</h4>
+          </th>
+          <td>
+            <p id="totalPrice">
+              BHD 314.900
+            </p>
+          </td>
+        </tr>
+      </table>
+      <button id="Cbtn" type="submit">Proceed to checkout</button>
+      <div id="Paymentmethods">
+        <img src="image/cart (3).png" alt="">
+        <img src="image/cart (4).png" alt="">
+        <img src="image/cart (5).png" alt="">
+        <img src="image/paypal.png" alt="">
+      </div>
+    </div>
+
+  </section>
+  <script src="index.js"></script>
+</body>
+</html>

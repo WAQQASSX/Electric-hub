@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Account Page</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body style="background-color: #ecefef;">
+
+<div class="container=2">
+
+    <div class="headbar"><a href="Home.html"><img src="image/logo.png" id="logoheadbar"></a><span id="headertext">Account Information</span></div>
+
+    <div class="sidebar">
+        <button class="sidebutton" id="AccountInfo" style="margin-top: 7em;"><span class="sidebuttonfont">Account Info</span></button>
+        <button class="sidebutton" id="Orders"><span class="sidebuttonfont">My Orders</span></button>
+        <button class="sidebutton" id="Address"><span class="sidebuttonfont">Saved Addresses</span></button>
+        <button class="sidebutton" id="Cards"><span class="sidebuttonfont">Saved Cards</span></button>
+        <button id="logOut" class="sidebutton"><span class="sidebuttonfont">Log Out</span></button>
+        
+        <script>
+           
+          </script>
+
+    </div>
+
+    <div class="mainbox">
+        <div id="centermain">
+            <label for="firstname"><span class="labeltext">First Name:</span></label><br><br>
+            <input type="text" id="firstname" placeholder="Johnathan">
+                <br>
+                <br>
+                <br>
+            <label for="lastname"><span class="labeltext">Last Name:</span></label><br><br>
+            <input type="text" id="lastname" placeholder="Smith">
+                <br>
+                    <br>
+                    <br>
+                <label for="phone"><span class="labeltext">Phone Number:</span></label><br><br>
+                <input type="tel" id="phone" placeholder="+973 3344 5566">
+                    <br>
+                    <br>
+                    <br>
+                <label for="email"><span class="labeltext">Email Address:</label><br><br>
+                <input type="email" id="email" placeholder="Email@Address.com">
+            </div>
+            <button type="button" id="submitbutton">Save</button>
+        </div>    
+        <div id="centermain2">
+           <div id="AP-Order1">
+            <h2 class="AP-OrderNum">Order N01</h2>
+            <p class="AP-TruckNum">Trucking Number:12345</p>
+            <p class="AP-OrderStatus">Order Status: Delivered</p>
+           </div>
+           <div id="AP-Order2">
+            <h2 class="AP-OrderNum">Order No2</h2>
+            <p class="AP-TruckNum">Trucking Number:67891</p>
+            <p class="AP-OrderStatus">Order Status: Delivered</p>
+           </div>
+           <div id="AP-Order3">
+            <h2 class="AP-OrderNum">Order N03</h2>
+            <p class="AP-TruckNum">Trucking Number:12345</p>
+            <p class="AP-OrderStatus">Order Status: Out for delivery</p>
+           </div>
+           <div id="AP-Order4">
+            <h2 class="AP-OrderNum">Order No4</h2>
+            <p class="AP-TruckNum">Trucking Number:67891</p>
+            <p class="AP-OrderStatus">Order Status: Purchase in Process</p>
+           </div>
+        </div>   
+        <div id="centermain3">
+            <h1 id="addressBOX">My Addresses</h1>
+            <div id="AP-DefaultAdd">
+                <h2>Default Address</h2>
+                <p class="AP-Address">
+                    <br><span class="AP-AddreSp">Road: </span>
+                    <br>1923
+                    <br><span class="AP-AddreSp">House: </span>
+                    <br>A123  
+                    <br><span class="AP-AddreSp">City:</span> 
+                    <br>Riffa
+                 </p>
+                 <p class="AP-Address2">
+                    <br><span class="AP-AddreSp">Governorate:</span>
+                    <br>Southern
+                    <br><span class="AP-AddreSp">Country:</span> 
+                    <br>Bahrain
+                    <br><span class="AP-AddreSp">ZIP Code:</span>
+                    <br>9383
+                 </p>
+            </div>
+            <div id="AP-OfficeAdd">
+                <h2>Office Address</h2>
+                <p class="AP-Address">
+                    <br><span class="AP-AddreSp">Road: </span>
+                    <br>7594
+                    <br><span class="AP-AddreSp">Office: </span>
+                    <br>B14  
+                    <br><span class="AP-AddreSp">City:</span> 
+                    <br>Manama
+                 </p>
+                 <p class="AP-Address2">
+                    <br><span class="AP-AddreSp">Governorate:</span>
+                    <br>Manama
+                    <br><span class="AP-AddreSp">Country:</span> 
+                    <br>Bahrain
+                    <br><span class="AP-AddreSp">ZIP Code:</span>
+                    <br>7588
+                 </p>
+            </div>
+                
+       
+        </div>   
+        <div id="centermain4">
+           <div id="AP-Card">
+            <h2 id="AP-type">VISA</h2>
+            <h2 id="AP-CardNumber">XXXX XXXX XXXX XXXX</h2>
+            <p id="AP-CardHolder">Card Holder</p>
+            <h3 id="AP-Name">UserName</h3>
+            <p id="AP-Expire">Expires</p>
+            <h3 id="AP-Date">09/02</h3>
+           </div>
+        </div>   
+    </div>
+<script src="index.js"></script>
+</body>
+</html>

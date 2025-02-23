@@ -1,0 +1,1169 @@
+
+/* home page */
+*{
+  margin: 0;
+  padding: 0;
+  border: 0;
+  list-style: none;
+  font-family:Arial, Helvetica, sans-serif
+}
+body{
+  background-color: #eeebeb;
+}
+/* Header */
+#HomeHeader {
+  width: 100%;
+  height: 8em;
+  background-color: #eeebeb;
+  border-bottom:solid #484646 0.15em;
+  justify-content: center;
+  align-items: center;
+}
+#icons{
+float: left;
+width: 10%;
+height: 100%;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+#icon{
+  width: 5em;
+  float: left;
+}
+#Logos{
+float: left;
+width: 80%;
+height: 100%;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+#logo{
+  width: 11em;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center; 
+}
+#Login{
+  float: right;
+  display: grid;
+  align-items: center;
+  justify-content: center;
+  width: 10%;
+  height: 100%;
+}
+button.Login{
+  padding: .4em;
+  margin: 0.2em;
+  width: 7em;
+  border-radius: 2em;
+  text-align: center;
+  background-color: #484646;
+  color: white;
+  cursor: pointer;
+
+}
+#Reg{
+  margin: 0.2em;
+  text-align: center;
+  cursor: pointer;
+}
+#Rlink{
+  text-decoration: none;
+  color: #000;
+}
+/* Carousel */
+ #HomeNav{
+  max-width: 100%;
+  height: 19em;
+  position: relative;
+  margin: auto;
+  object-fit: scale-down;
+}  
+.mySlides {
+  display: none;
+  height: 25em;
+  object-fit: cover;
+}
+
+/* categories */
+#Hsec1{
+  width: 100%;
+  height: auto;
+  background-color: #eeebeb;
+  border-bottom: #484646 solid .15em;
+  justify-content: center;
+  justify-items: center;
+  align-items: center;
+}
+.Categories{
+  width: 11em;
+  height: 11em;
+  display: inline-grid;
+  text-align: center;
+  margin-bottom: 1em;
+  border-radius: 50%;
+  justify-content: center;
+  justify-items: center;
+  align-items: center;
+  margin-left: 0.5em ;
+}
+.Cateimg{
+  width: 9em;
+  height: 9em;
+  background-color: white;
+  border-radius: 50% 50%;
+  display: grid;
+  justify-content: center;
+  justify-items: center;
+  align-items: center;
+}
+.Cateimg img{
+  width: 7em;
+  height: 7em;
+  object-fit: scale-down;
+}
+.Bimg{
+  width: 6em !important;
+}
+.Subtitle{
+  padding-left:1em;
+  padding-top: 0.3em;
+  padding-bottom: 0.3em;
+}
+.Catetext{
+  margin-top: 0.5em;
+}
+/* Top seller section */
+#Hsec2{
+  width: 100%;
+  height: auto;
+  background-color: #eeebeb;
+  border-bottom: #484646 solid 0.15em;
+}
+div.Product-con{
+  width: 17em;
+  height: 15em;
+  background-color: white;
+  border-radius:2em ;
+  display: inline-block;
+  justify-content: center;
+  justify-items: center;
+  align-items: center;
+  margin-left: 1.5em;
+  margin-bottom: 2em;
+  text-align: center;
+  padding-top: 1em; 
+  cursor: pointer;
+  
+}
+img.ProdImg{
+  width: 9em;
+}
+#Hsec3{
+  width: 100%;
+  height: auto;
+  background-color: #eeebeb;
+}
+div.Product-c{
+  width: 20em;
+  height: 15em;
+  background-color: white;
+  margin-left: 1.5em;
+  border-radius:2em ;
+  display: inline-block;
+  justify-content: center;
+  justify-items: center;
+  align-items: center;
+  margin-left:3em ;
+  margin-bottom: 2em;
+  text-align: center;
+  padding-top: 1em; 
+  margin-top: 1em;
+  cursor: pointer;
+}
+img.productImg{
+  margin-top: 1em;
+  width: 9em;
+  height: 8em;
+  object-fit: scale-down;
+
+}
+/* footer */
+#H2F{
+  height: 10%;
+  color: white;
+  text-align: center;
+  background-color: #121212;
+}
+#registration{
+  width: 100%;
+  height: 22em;
+  padding-top: 0.5em;
+  background-color: #121212;
+  justify-content: center;
+  align-items: center;
+}
+#loginformC{
+  width: 50%;
+  height: 90%;
+  float: left;
+  justify-content: center;
+  align-items: center;
+  display: grid;
+}
+#LoginForm{
+width: 40em;
+height:auto;
+color: white;
+text-align: center;
+background-color: white;
+}
+input.inputs{
+  width: 22em;
+  height: 4em;
+  padding-left: 1em ;
+}
+.inputs:focus{
+  outline: none;
+}
+input.inputs2{
+  width:22.6em;
+  height: 4em;
+  padding-left: 1em ;
+  background-color: #121212;
+  color: white;
+  margin-bottom:0.2em ;
+}
+input.inputs2:focus{
+outline: none;
+}
+input.inputs3{
+  width: 39.6em;
+  height: 4em;
+  background-color: #121212;
+  margin-bottom:0.2em ;
+  color:white;
+  font-family: 'Times New Roman';
+  font-size: medium;
+  cursor: pointer;
+}
+#SocialWeb{
+  width: 25%;
+  height: 90%;
+  float: right;
+  justify-content: center;
+  align-items: center;
+  display: grid;
+  font-size: large;
+  color: white;
+}
+#SocialWeb a{
+  text-decoration: none;
+  color: white;
+}
+#AboutUS{
+  width: 25%;
+  height: 90%;
+  float: left;
+  justify-content: center;
+  align-items: center;
+  display: grid;
+  color: white;
+  font-size: large;
+}
+#AboutUS a{
+  text-decoration: none;
+  color: white;
+}
+#copyright{
+  background-color: #000;
+  width: 100%;
+  height: 3em; 
+  justify-content: center;
+  align-items: center;
+  display: grid;
+}
+#copyrighttext{
+  color: white;
+  text-align: center;
+} 
+#Number::-webkit-outer-spin-button,
+#Number::-webkit-inner-spin-button{
+  -webkit-appearance: none;
+}
+/* cart page  */
+/* header */
+#Cheader{
+  width: 100%;
+  height: 5em;
+  justify-content: center;
+  display: grid;
+  align-items: center;
+}
+#CLogo{
+  width: 10em;
+}
+/* section 1 */
+#Csec1{
+  width: 100%;
+  height: 5em;
+  position: relative;
+}
+#Carrow{
+  width: 3em;
+  float: left;
+  position: absolute;
+  left: 13.4em;
+  top: 30%;
+}
+#Ctext{
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 16.8em;
+  color: #000;
+  cursor: pointer;
+}
+#Cimg{
+  float: right;
+  width: 8em;
+  position: absolute;
+  right: 13em;
+  top: 1.5em;
+}
+#CartUserN{
+  position: absolute;
+  right:21em;
+  top: 2.4em;
+  color: #555458 !important;
+}
+/* Section 2 */
+#Csec2{
+  width: 100%;
+  height: 20em;
+  display: grid;
+  justify-content: center;
+  align-items: center;
+}
+#Ctable{
+  width:70em;
+  height: 20em;
+  background-color: #000;
+}
+#ProductCo{
+  height: 2em;
+  width: 70%;
+  text-align: left;
+  padding: 0.5em;
+  background-color: white;
+  font-size: 1em;
+}
+#PriceCo{
+  height: 2em;
+  width: 15%;
+  padding: 0.5em;
+  background-color: white;
+  font-size: 1em;
+}
+#QuantityCo{
+  height: 2em;
+  width: 15%;
+  padding: 0.5em;
+  background-color: white;
+  font-size: 1em;
+}
+td.Tdata1{
+  width: 70%;
+  height: 5em;
+  background-color: white;
+  position: relative;
+}
+td.Tdata1 img{
+  width: 7em;
+  height: 7em;
+  object-fit: scale-down;
+  padding-left: 1em;
+}
+td.Tdata1 p {
+  color: black;
+  display: inline;
+  position: absolute;
+  top:6.5em;
+  padding-left: 2em;
+}
+td.Tdata2{
+  width: 15%;
+  height: 5em;
+  background-color: white;
+  text-align: center;
+}
+input.TInput{
+  width: 6em;
+  height: 3em;
+  text-align: center;
+  border: #000 solid;
+}
+/* section 3 */
+#Csec3{
+  width: 100%;
+  height:15.59em;
+}
+#PromoCode{
+  float: left;
+  width: 50%;
+  height: 100%;
+  position: relative;
+}
+#PromoCode h3{
+  position: absolute;
+  left: 11.5em;
+  top: 1em;
+}
+#inputPromo{
+  position: absolute;
+  border: solid black;
+  top: 4em;
+  left: 16em;
+  height: 2em;
+  padding-left: 0.5em;
+}
+#applyPromo{
+  position: absolute;
+  left:28.4em;
+  top: 4em;
+  height: 2.34em;
+  padding: 0.8em;
+  color: white;
+  background-color: #000;
+  cursor: pointer;
+}
+#PaySection{
+  float: right;
+  width: 50%;
+  height: 100%;
+  position: relative;
+}
+#Ctable2{
+  position: absolute;
+  width: 35em;
+  height: 6em;
+  background-color: #000;
+  margin-top: 1.5em;
+}
+#Ctable2 th{
+  background-color: white;
+  width: 75%;
+}
+#Ctable2 th h4{
+  text-align: left;
+  padding-left: 1em;
+}
+#Ctable2 td{
+  background-color: white;
+  width: 25%;
+}
+#Ctable2 td p{
+ padding-left: 1em;
+}
+#Cbtn{
+  width: 35em;
+  height: 2.4em;
+  position: absolute;
+  top:8.4em ;
+  background-color: white;
+  border: #000 solid 0.14em;
+  font-size: 1em;
+  cursor: pointer;
+}
+#Paymentmethods{
+display: inline-block;
+position: absolute;
+top: 10.5em;
+left:6em;
+
+}
+#Paymentmethods img{
+width: 5em;
+height: 5em;
+object-fit: scale-down;
+}
+
+/*
+Our story page 
+*/
+/* OS Header */
+#OSHeader{
+  width: 100%;
+  height: 9em;
+  border-bottom: black solid;
+  background-color: #eeebeb;
+}
+#OSlogo{
+  float: left;
+  width: 35%;
+  height: 9em;
+  
+}
+#OSlogo img{
+  width: 10em;
+  height: 9em;
+  object-fit: cover;
+  float: left;
+}
+#OSlogo h3{
+  float: left;
+  text-align: center;
+  line-height: 5em;
+  font-size: 1.7em;
+}
+#OSlink{
+  width: 65%;
+  float: left;
+}
+.OSlinks{
+  display: inline-block;
+  font-size: 1.7em;
+  line-height: 4.3em;
+  cursor: pointer;
+  margin: 0.2em;
+}
+#OSlink a{
+  color: #000;
+}
+.OSlinks:hover{
+  color: blue;
+}
+/* OS body */
+#OSbody{
+ background-color: #eeebeb;
+ width: 100%;
+}
+#OSbody h1{
+  width: 100%;
+  font-weight: lighter;
+  text-align: center;
+  font-size: 1.5em;
+  padding: 1em 0 1em 0;
+}
+#OSbody div{
+  width: 90%;
+  margin: auto;
+
+}
+#OSbody p{
+  text-align: justify;
+  padding-bottom: 1em;
+}
+/* footer*/
+#OSfooter{
+  background-color: #eeebeb;
+  width: 100%;
+  display: grid;
+  justify-content: center;
+  align-items: center;
+}
+#OSfooter div {
+  width: 100%;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+#OSfooter div div {
+  width: 15em;
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 1em;
+}
+#OSfooter h1{
+  text-align: center;
+  padding:1em 0 1em 0;
+  font-weight: lighter; 
+}
+#OSfooter img{
+  width: 10em;
+  border-radius: 50% 50%;
+  padding-left: 1em;
+}
+
+#OSfooter h3{
+  padding: 0.5em 0 0.5em 0 ;
+}
+
+  /* PRODUCT PAGE */
+body{
+  padding: 0px;
+      margin: 0;
+      overflow-x: hidden;
+  } 
+  /* Header */
+  #HomeHeader {
+      width: 100%;
+      height: 7em;
+      background-color: #eeebeb;
+      border-bottom:solid #484646 0.15em;
+      justify-content: center;
+      align-items: center;
+    }
+    #icons{
+    float: left;
+    width: 10%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    }
+    #icon{
+      width: 5em;
+      float: left;
+    }
+    #Logos{
+    float: left;
+    width: 80%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    }
+    #logo{
+      width: 11em;
+      height: auto;
+      display: flex;
+      justify-content: center;
+      align-items: center; 
+    }
+    #Login{
+      float: right;
+      display: grid;
+      align-items: center;
+      justify-content: center;
+      width: 10%;
+      height: 100%;
+    }
+    .container{
+      height: 38.9em;
+      width: 100%;
+      background-color: aqua;
+    }
+  
+    .productname{
+      display: block;
+      height: 19.45em;
+      width: 100%;
+      background-color: #eeebeb;
+      text-align: center;
+    }
+  
+    .producttext{
+      display: block;
+      height: 19.45em;
+      width: 100%;
+      background-color: #dedada;
+      text-align: left;
+  
+    }
+  
+    .productimage{
+      height: 30em;
+      width: 30em;
+      border-radius: 50%;
+      background-color: #d0cccc;
+      position: absolute;
+      top: 11.5em;
+      left: 4em;
+      text-align: center;
+      
+    }
+  
+    ul,ol{
+      margin: 0;
+      padding: 0;
+    }
+  
+    li{
+      padding: 0.5em;
+      
+    }
+  
+    #namestyle{
+      position:  relative; 
+      left: 17%; 
+      top: 55%; 
+      font-size: 3em;
+    }
+  
+    #descstyle{
+      position:  relative;
+      left: 50%;
+      top: 8%;
+      font-size: 1.2em;
+    }
+  
+    #pricestyle{
+      display: inline-block;
+      background-color: #eeebeb;
+      position: relative;
+      width: 20em;
+      height: 5em;
+      left: 19em;
+      top: 3.5em;
+      border-radius: 2em;
+      text-align: center;
+      vertical-align: middle;
+      line-height: 5em;
+    }
+  
+    #buttonstyle{
+      display: inline-block;
+      background-color: #484646;
+      position: relative;
+      width: 25em;
+      height: 6em;
+      left: 84em; 
+      top: 4.6em; 
+      border-radius: 2em;
+      cursor: pointer;
+    }
+  
+    #buttontext{
+      color: white;
+      font-size: 2em;
+    }
+  
+    #pricetext{
+      font-size: 1.5em;
+    }
+  
+    #VAT{
+      font-size: 0.75em;
+    }
+    
+    #imgsize{
+      max-width: 80%;
+      max-height: 80%;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+    }
+  
+  
+    /* ACCOUNT PAGE */
+  
+    .headbar{
+      width: 100%;
+      height: 20%;
+      background-color: #bcbcbc;
+      position: relative;
+    }
+  
+    #logoheadbar{
+    position: absolute;
+    float: left;
+    max-width: 90%;
+    max-height: 90%;
+    top: 0.4em;
+    left: 1.6em;
+    }
+  
+    #headertext{
+      font-size: 2.75em;
+      line-height: 2.5em;
+      position: relative;
+      left: 2.8em;
+      font-weight: bold;
+      font-family: Sans-serif;
+      color: #484646;
+    }
+   /* side bar */
+    .sidebar{
+      height: 38.7em;
+      width: 17%;
+      float: left;
+      background-color: #5e5e5f;
+      box-shadow: 1em 0em 1em #b0b0b0;
+    }
+  
+    .mainbox{
+      float: left;
+      color: #484646;
+      width: 83%;
+      height: 80%;
+      font-weight: bold;
+      font-family: Sans-serif;
+      position: relative;
+    }
+  
+    .sidebutton{
+      width: 100%;
+      height: 6em;
+      float: left;
+      border: 0;
+      border-radius: 1em;
+      background-color: #5e5e5f;
+      color: white;
+      cursor: pointer;
+      transition-duration: 0.4s;
+    }
+  
+    .sidebutton:hover{
+      background-color: #747576;
+    }
+  
+  
+  
+    .sidebuttonfont{
+      font-size: 1.5em;
+      font-weight: bold;
+      font-family: Sans-serif;
+    }
+  
+    .mainbox input{
+      border-radius: 0.5em;
+      height: 1.5em;
+      width: 30em;
+      font-size: 1.5em;
+      border: solid #484646;
+      padding-left: 0.5em;
+    }
+  
+    .labeltext{
+      font-size: 1.75em;
+    }
+  
+    #centermain{
+      position: relative;
+      left: 15em;
+      top: 5em;
+    }
+    #submitbutton{
+      display: inline;
+      height: 3em;
+      width: 10em;
+      position: absolute;
+      right: 6em;
+      bottom: -6em;
+      border-radius: 2em;
+      background-color: rgb(37, 112, 37);
+      color: white;
+      font-weight: bold;
+      cursor: pointer;
+      border: solid #484646;
+    } 
+/* My Order btn */
+#centermain2{
+  position: relative;
+  left: 15em;
+  top: 5em;
+  display: none;
+}
+
+#AP-Order1{
+  position: absolute;
+  width: 30em;
+  height: 7em;
+  background-color: white;
+  color: #000;
+  border-radius: 1em;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  left:5em ;
+  top: 5em;
+
+}
+#AP-Order2{
+  position: absolute;
+  width: 30em;
+  height: 7em;
+  background-color: white;
+  color: #000;
+  border-radius: 1em;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  left:5em ;
+  top: 15em;
+}
+#AP-Order3{
+  position: absolute;
+  width: 30em;
+  height: 7em;
+  background-color: white;
+  color: #000;
+  border-radius: 1em;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  left:39em ;
+  top: 5em;
+}
+#AP-Order4{
+  position: absolute;
+  width: 30em;
+  height: 7em;
+  background-color: white;
+  color: #000;
+  border-radius: 1em;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  left:39em ;
+  top: 15em;
+}
+.AP-OrderNum{
+  margin: 0.7em;
+}
+.AP-TruckNum{
+  margin-left: 0.7em;
+}
+.AP-OrderStatus{
+  position: absolute;
+  right: 2em;
+  top: 3em;
+}
+/* Saved Addresses  */
+#centermain3{
+  position: relative;
+  left: 15em;
+  top: 5em;
+  display: none;
+}
+#addressBOX{
+  position: absolute;
+  left: 17em;
+}
+#AP-DefaultAdd{
+  position: absolute;
+  border: black solid 2px;
+  background-color: white;
+  width: 30em;
+  height: 25em;
+  left: 5em;
+  top: 4em;
+  border-radius: 1em;
+}
+#AP-DefaultAdd h2{
+  text-align: center;
+  padding-top: 0.5em;
+}
+
+#AP-OfficeAdd{
+  position: absolute;
+  border: black solid 2px;
+  border-radius:1em ;
+  background-color: white;
+  width: 30em;
+  height: 25em;
+  right: 20em;
+  top: 4em;
+}
+#AP-OfficeAdd h2{
+  text-align: center;
+  padding-top: 0.5em;
+}
+.AP-Address{
+  position: absolute;
+  top: 1em;
+  left: 3em;
+  font-size: 25px;
+}
+.AP-Address2{
+  position: absolute;
+  top: 1em;
+  right: 3em;
+  font-size: 25px;
+}
+.AP-AddreSp{
+line-height: 2.5em;
+font-weight: bold;
+}
+
+/* AP - Card  btn */
+#centermain4{
+  position: relative;
+  left: 15em;
+  top: 5em;
+  display:none;
+}
+
+#AP-Card{
+  position: absolute;
+  position: relative;
+  border: #1f79f1 solid 2px;
+  width:25em;
+  height: 14em;
+  left: 26em;
+  background-color: #1f79f1;
+  border-radius: 1em;
+  color: white;
+  top: 5em;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+#AP-type{
+  position: absolute;
+  left: 2em;
+  top: 1em;
+}
+#AP-CardNumber{
+  position: absolute;
+  top: 4em;
+  left: 2em;
+}
+#AP-CardHolder{
+  position: absolute;
+  bottom: 4em;
+  left: 3em;
+}
+#AP-Name{
+  position: absolute;
+  bottom: 2em;
+  left: 2.6em;
+}
+#AP-Expire{
+position: absolute;
+bottom: 4em;
+left: 15em;
+}
+#AP-Date{
+position: absolute;
+bottom: 2em;
+left: 12.9em;
+}
+
+/* Mockups page*/
+
+#mockheader{
+  display: flex;
+  width: 100%;
+  height: 7em;
+  background-color: #eeebeb;
+  border-bottom:solid #9d9d9d 0.12em;
+  justify-content: space-between;
+  align-items: center;
+  color: #383737;
+  font-weight: bold;
+  box-shadow: 0em 1em 1em rgb(176, 176, 176, 0.6);
+}
+
+.mocklogo{
+  width:8em;
+  height: 8em;
+  margin-left: 1em;
+}
+
+
+
+#mocktitle{
+  position: relative;
+  right: 1.9em;
+  font-size: 2em;
+  font-family: arial;
+}
+
+#mockprofile{
+  height: 3em;
+  width: 3em;
+  margin-right: 2.5em;
+}
+
+
+.mockupimg{
+  width: 80%;
+height: auto;
+
+}
+
+.row {
+  display: flex;
+  width: 100%;
+  margin: 3em 0 10em 0;
+  
+}
+
+.column {
+  position: relative;
+  flex: 1;
+  padding: 0;
+  border: 0.3em inset #dedede;
+  box-shadow: 1em 1em 2.5em -0.4em rgba(0,0,0,0.3);
+  margin: 0 2em;
+  background-color: rgb(255, 255, 255);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.element {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  padding: 0;
+}
+
+
+.dropdownbox{
+  height: 4em;
+  flex: 1;
+  padding: 0;
+  border-radius: 0.5em;
+  border: 0.1em solid #5d5d5d;
+  box-shadow: 1em 1em 2.5em -0.4em rgba(0,0,0,0.3);
+  margin: 0 2em;
+  background-color: #4d4d4d;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: absolute;
+  top: 110%;
+  width: 65%;
+  vertical-align: middle;
+  line-height: 4em;
+  cursor: pointer;
+  font-weight: bold;
+  justify-content: space-between;
+  color: white;
+  font-size: 1em;
+}
+
+.description{
+  display: block;
+}
+
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+
+.dropdowncontent {
+  position: absolute;
+  display: block;
+  background-color: #ffffff;
+  overflow: hidden;
+  box-shadow: 1em 1em 2.5em -0.4em rgba(0,0,0,0.3);
+  top: 130%;
+  text-align: justify;
+  z-index: 100;
+  border: #838383 0.1em solid;
+  border-radius: 0.5em;
+  padding-left: 2em;
+  padding-right: 2em;       
+  transition: max-height 0.3s ease, opacity 0.3s ease;
+  max-height: 0;
+  opacity: 0;
+  font-size: 1.1em;
+  font-family: arial;
+  color: #383737;
+}
+
+.dropdowncontent.show {
+  max-height: 100%;
+  opacity: 1;
+  pointer-events: auto;
+}
+
+button:hover{
+  background-color: #767171;
+  transition: 0.5s;
+}
